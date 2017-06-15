@@ -41,7 +41,7 @@ def random_sequences(length_from, length_to,
                      batch_size):
     """ Generates batches of random integer sequences,
         sequence length in [length_from, length_to],
-        vocabulary in [vocab_lower, vocab_upper]
+        vocabulary in [vocab_lower, vocab_upper)
     """
     if length_from > length_to:
             raise ValueError('length_from > length_to')
